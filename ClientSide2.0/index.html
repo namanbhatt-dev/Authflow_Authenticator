@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In Page</title>
+    <style>
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #1a202c;
+}
+
+/* Container styling */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* Input and button styling */
+input[type="email"], input[type="password"], button {
+  width: calc(100% - 20px);
+  padding: 12px 10px;
+  margin: 8px 0;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #63b3ed;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.5);
+}
+
+input[type="passkey"] {
+  border-color: #63b3ed;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.5);
+}
+
+button {
+  background-color: #4a5568;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2d3748;
+}
+
+/* Message styling */
+#message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Additional button and error message styles */
+button + #message {
+  margin-top: 15px;
+}
+
+.error-message {
+  color: #e53e3e;
+}
+
+.success-message {
+  color: #38a169;
+}
+
+/* Enhanced visual feedback for interactive elements */
+input[type="email"]:hover, input[type="password"]:hover, button:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign In</h2>
+        <button onclick="login()">Log In</button>
+        <button onclick="logout()">Log Out</button>
+        <p id="message"></p>
+    </div> 
+    <div id="securityQuestionsForm" style="display: none;">
+      <label for = "security1">Security Question 1:</label>
+      <select id="question1">
+        <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+        <option value="What is the name of your first pet?">What is the name of your first pet?</option>
+        <option value="What is your last four digit of SSN?">What is your last four digit of SSN?</option>
+        <option value="What is the name of the city you were born in?">What is the name of the city you were born in?</option>
+        <option value="What is the name of your favorite teacher?">What is the name of your favorite teacher?</option>
+        <option value="What was your last phone number?">What was your last phone number?</option>
+      </select>
+      <input type="text" id="answer1" placeholder="Answer..." />
+      <label for = "security2">Security Question 2:</label>
+      <select id="question2">
+        <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+        <option value="What is the name of your first pet?">What is the name of your first pet?</option>
+        <option value="What is your last four digit of SSN?">What is your last four digit of SSN?</option>
+        <option value="What is the name of the city you were born in?">What is the name of the city you were born in?</option>
+        <option value="What is the name of your favorite teacher?">What is the name of your favorite teacher?</option>
+        <option value="What was your last phone number?">What was your last phone number?</option>
+      </select>
+      <input type="text" id="answer2" placeholder="Answer..." />
+      <label for = "security3">Security Question 3:</label>
+      <select id="question3">
+        <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+        <option value="What is the name of your first pet?">What is the name of your first pet?</option>
+        <option value="What is your last four digit of SSN?">What is your last four digit of SSN?</option>
+        <option value="What is the name of the city you were born in?">What is the name of the city you were born in?</option>
+        <option value="What is the name of your favorite teacher?">What is the name of your favorite teacher?</option>
+        <option value="What was your last phone number?">What was your last phone number?</option>
+      </select>
+      <input type="text" id="answer3" placeholder="Answer..." />
+      <button onclick="submitSecurityQuestions()">Submit</button>
+  </div>
+    <script>
+
+      function login() {
+           window.location.href = '/login';
+       }
+
+        function logout() {
+            window.location.href = '/logout';
+            const user = req.oidc.user;
+            const { email } = user;
+  
+            // Set the user as logged out
+            const setUserLoggedOutQuery = 'UPDATE AuthFlowUsers SET is_logged_in = FALSE WHERE email = ?';
+            connection.query(setUserLoggedOutQuery, [email], (err, results) => {
+            if (err) {
+                logger.error('Database error when logging out:', err);
+            } 
+
+        }); 
+
+        }
+        function checkAuthentication() {
+            fetch('/is-authenticated')
+            .then(response => response.json())
+            .then(data => {
+                const messageElement = document.getElementById('message');
+                if (data.isAuthenticated) {
+                  localStorage.setItem('userEmail', data.email);
+                    // User is authenticated, show the "Enroll" button and success message
+                    if (!document.querySelector('#enrollButton')) {
+                        const enrollButton = document.createElement('button');
+                        enrollButton.id = 'enrollButton';
+                        enrollButton.innerText = 'Enroll in AuthFlow';
+                        enrollButton.onclick = promptEnrollment;
+                        const containerDiv = document.querySelector('.container'); // Select the container div
+                        containerDiv.appendChild(enrollButton); // Append the button to the container div if it doesn't exist
+                    }
+                    messageElement.innerText = 'You are authenticated.';
+                    messageElement.style.color = 'green';
+                } 
+            })
+            .catch(error => {
+            console.error('Error:', error);
+            const messageElement = document.getElementById('message');
+            messageElement.innerText = `An error occurred while checking authentication: ${error.message}`;
+            messageElement.style.color = 'red';
+            });    
+
+        }
+
+
+function promptEnrollment() {
+  const enroll = confirm("Do you want to enroll in AuthFlow Authenticator?");
+  if (enroll) {
+    // Show the security questions form
+    document.getElementById('securityQuestionsForm').style.display = 'block';
+  }
+}
+
+function submitSecurityQuestions() {
+    const question1 = document.getElementById('question1').value;
+    const answer1 = document.getElementById('answer1').value;
+    const question2 = document.getElementById('question2').value;
+    const answer2 = document.getElementById('answer2').value;
+    const question3 = document.getElementById('question3').value;
+    const answer3 = document.getElementById('answer3').value;
+    // Make a request to the server to enroll the user
+    fetch('/enroll-authflow', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        password: 'userPassword', // Ensure secure handling in real applications
+        question1,
+        answer1,
+        question2,
+        answer2,
+        question3,
+        answer3
+      }),
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Hide the security questions form
+      document.getElementById('securityQuestionsForm').style.display = 'none';
+        // Display success message with PIN in the message element
+        const messageElement = document.getElementById('message');
+        messageElement.innerText = `${data.message}`;
+        messageElement.style.color = 'green'; // Success message in green
+    })
+    .catch((error) => {
+      // Display error message in the message element
+      console.error('Error:', error);
+      const messageElement = document.getElementById('message');
+      messageElement.innerText = 'Error enrolling in AuthFlow Authenticator.';
+      messageElement.style.color = 'red'; // Error message in red
+    });
+}
+
+function checkEnrollmentAndPromptForPasskey() {
+    fetch('/is-enrolled')
+    .then(response => response.json())
+    .then(data => {
+        if (data.isEnrolled) {
+            // User is enrolled, show input for passkey
+            showPasskeyInput();
+        } else {
+            // User is not enrolled, hide input for passkey
+            hidePasskeyInput();
+          }
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+function showPasskeyInput() {
+    // Example of adding passkey input dynamically or showing existing one
+    const container = document.querySelector('.container');
+    // Ensure not to duplicate the input if already there
+    if (!document.getElementById('passkeyInput')) {
+        const passkeyInput = document.createElement('input');
+        passkeyInput.type = 'text';
+        passkeyInput.id = 'passkeyInput';
+        passkeyInput.placeholder = 'Enter 6-digit passkey';
+
+        const submitButton = document.createElement('button');
+        submitButton.innerText = 'Verify Passkey';
+        submitButton.onclick = verifyPasskey;
+
+        container.appendChild(passkeyInput);
+        container.appendChild(submitButton);
+    }
+}
+
+function verifyPasskey() {
+
+        // Get the user's email and passkey from the input fields on the page
+        const email = localStorage.getItem('userEmail');
+        const passkey = document.getElementById('passkeyInput').value;
+
+        // Now make the request to the Authenticator server with the user's email and passkey
+        fetch('/verify-passkey', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, passkey }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            const messageElement = document.getElementById('message');
+            messageElement.innerText = `${data.message}`;
+            messageElement.style.color = 'green'; // Success message in green
+           // Redirect to profile page if passkey is verified
+            window.location.href = '/profile-page';
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            const messageElement = document.getElementById('message');
+            messageElement.innerText = 'Error verifying passkey.';
+            messageElement.style.color = 'red'; // Error message in red
+        });
+}
+
+// Call this function to check enrollment and prompt for passkey
+checkEnrollmentAndPromptForPasskey();
+
+
+
+
+// Call the function when the page loads
+window.onload = function() {
+    checkAuthentication();
+};
+
+    </script>
+</body>
+</html>

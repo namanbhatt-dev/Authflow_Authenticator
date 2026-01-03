@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+        /* Reset some basic elements */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a font family */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: #fff; /* White background for the login area */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 90%; /* Make the container take up 90% of the screen width */
+    max-width: 400px; /* But don't let it go over 400px */
+    text-align: center; /* Center the text */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #380046; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken the button slightly on hover */
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 100%; /* Let the container fill the screen on small devices */
+        border-radius: 0; /* Remove border radius on small screens for a full-width effect */
+        box-shadow: none; /* Remove shadow on small screens */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to AuthFlow Authenticator</h2>
+        <p>Please log in to continue.</p>
+        <button onclick="window.location.href='/login'">Log In</button>
+    </div>
+</body>
+</html>

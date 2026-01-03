@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AuthFlow Authenticator</title>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: gradientBackground 15s ease infinite;
+    background: linear-gradient(270deg, #6a3093, #a044ff, #6a3093);
+    background-size: 200% 200%;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #4b007d;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+  
+  
+.navbar button {
+    background-color: #6200ea;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.navbar button:hover {
+    background-color: #7f00ff;
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+}
+
+#accountForm input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#accountForm input[type="button"] {
+    background-color: #6200ea;
+    color: white;
+    cursor: pointer;
+    width: 15%; /* Adjusted width */
+    user-select: none; /* Prevent text selection */
+}
+
+
+#accountForm input[type="button"]:hover {
+    background-color: #7f00ff;
+    user-select: none; /* Prevent text selection */
+}
+
+.settings-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #2b0147;
+    padding: 20px;
+    display: none; /* Initially hidden */
+    z-index: 2; /* Ensure it lays over other content */
+}
+
+.draggable {
+    cursor: move; /* Indicates an item is draggable */
+}
+
+
+/* Accounts container styling */
+#accountsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none; /* Prevent text selection */
+}
+
+#accountsContainer > div {
+    background-color: rgb(33, 0, 53);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Progress bar styling */
+.progress-bar-container {
+    width: 100%;
+    background-color: #a044ff;
+    border-radius: 5px;
+    margin: 10px 0;
+    user-select: none; /* Prevent text selection */ 
+}
+
+.progress-bar {
+    height: 10px;
+    width: 0%;
+    background-color: #be2727;
+    border-radius: 5px;
+    transition: width 1s linear;
+}
+
+.suspended-msg {
+    color: #ff5252; /* Red color for suspension message */
+    font-weight: bold;
+}
+
+.copy-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+.copy-btn:hover {
+    color: #bbb;
+}
+
+/* Tooltip styling */
+.copy-btn::after {
+    content: attr(data-tooltip); /* Use the data-tooltip attribute for dynamic tooltip content */
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: none;
+}
+
+.copy-btn:hover::after {
+    display: block;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar button {
+        margin-top: 10px;
+    }
+
+    #accountForm input {
+        width: 40%;
+    }
+
+    #accountsContainer > div {
+        width: 90%;
+    }
+}
+
+
+/* Specific button styling */
+.cancel-btn {
+    background-color: #e03838; /* Light red */
+}
+
+.cancel-btn:hover {
+    background-color: #ff5252; /* Red */
+}
+
+.background-gradient {
+            background: linear-gradient(to right, #6a3093, #a044ff);
+            color: white;
+}
+
+/* Sidebar button styling */
+#rearrangeAccountsBtn, #doneRearrangingBtn {
+    background-color: #6200ea;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#rearrangeAccountsBtn:hover, #doneRearrangingBtn:hover {
+    background-color: #7f00ff;
+}
+
+/* Sidebar button styling */
+#rearrangeAccountsBtn, #doneRearrangingBtn {
+    background-color: #6200ea;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#rearrangeAccountsBtn:hover, #doneRearrangingBtn:hover {
+    background-color: #7f00ff;
+}
+
+/* Chatbot styling */
+/* Chatbot Minimized Button */
+#chatbotMinimizedBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #aa1717; /* A dark red color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+#chatbotMinimizedBtn:hover {
+    background-color: #6200ea; /* A lighter shade for hover effect */
+}
+
+/* Chatbot Container */
+.chatbot-container {
+    position: fixed;
+    bottom: 90px; /* Adjust based on your page layout */
+    right: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: #333;
+    display: none; /* Ensure it's hidden initially */
+    padding: 15px;
+    font-family: 'Arial', sans-serif; /* Ensure font consistency */
+}
+
+/* Chatbot Header */
+.chatbot-header {
+    margin-bottom: 10px;
+    color: #4b007d; /* Match the navbar color for consistency */
+    font-weight: bold;
+}
+
+/* Chatbot Close Button */
+#closeChatbot {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    color: #333;
+    cursor: pointer;
+}
+
+#closeChatbot:hover {
+    background-color: #e1e1e1;
+}
+
+/* Chatbot History */
+#chatbotHistory {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* A light background to differentiate from the input area */
+}
+
+/* Chatbot Input and Send Button */
+#chatbotInput, #chatbotSend {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#chatbotSend {
+    background-color: #4b007d; /* Match the navbar color */
+    color: white;
+    cursor: pointer;
+}
+
+#chatbotSend:hover {
+    background-color: #6200ea; /* A lighter shade for the hover effect */
+}
+
+/* Ensure that the chatbot and the minimized button are fixed at the bottom right corner of the page */
+.chatbot-container, #chatbotMinimizedBtn {
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+/* Responsive design */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body, .navbar h2, .navbar button, #accountForm input, .chatbot-header {
+        font-size: 18px;
+    }
+
+    .navbar, .settings-sidebar, .chatbot-container {
+        flex-direction: column;
+    }
+
+    #accountForm input, #accountsContainer > div {
+        width: 90%;
+    }
+
+    .settings-sidebar, .chatbot-container {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #accountsContainer {
+        font-size: 25px;
+    }
+
+    .progress-bar-container {
+        margin: 5px 0;
+    }
+
+    .chatbot-container {
+        width: 90%;
+    }
+
+    #chatbotInput {
+        width: calc(100% - 60px);
+    }
+
+    #chatbotSend {
+        width: 60px;
+    }
+
+    #chatbotHistory {
+        height: 150px;
+    }
+
+    #chatbotMinimizedBtn {
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    #closeChatbot {
+        top: 0;
+        right: 0;
+    }
+}
+
+/* Tablets, iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    body, .navbar h2, .navbar button, #accountForm input {
+        font-size: 18px;
+    }
+
+    #accountForm input, #accountsContainer > div {
+        width: 80%;
+    }
+
+    .settings-sidebar {
+        width: 400px;
+    }
+
+    .chatbot-container, #chatbotMinimizedBtn {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    #chatbotInput {
+        width: calc(100% - 60px);
+    }
+
+    #chatbotSend {
+        width: 60px;
+    }
+
+    #chatbotHistory {
+        height: 150px;
+    }
+
+    #closeChatbot {
+        top: 0;
+        right: 0;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    body, .navbar h2, .navbar button, #accountForm input {
+        font-size: 20px;
+    }
+
+    #accountForm input, #accountsContainer > div {
+        width: 70%;
+    }
+
+    .settings-sidebar {
+        width: 500px;
+    }
+
+    .chatbot-container {
+        width: 300px;
+    }
+
+    #chatbotInput {
+        width: calc(100% - 60px);
+    }
+
+    #chatbotSend {
+        width: 60px;
+    }
+
+    #chatbotHistory {
+        height: 200px;
+    }
+
+    #chatbotMinimizedBtn {
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+    }
+
+    #closeChatbot {
+        top: 5px;
+        right: 10px;
+    }
+}
+
+/* Animated Gradient Background */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+body {
+    animation: gradientAnimation 15s ease infinite;
+    background-size: 200% 200%;
+}
+
+/* Subtle Button Animation */
+button:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Input Focus Animation */
+input:focus {
+    border-color: #a044ff;
+    box-shadow: 0 0 8px #a044ff;
+    transition: all 0.3s ease-in-out;
+}
+
+canvas#interactiveBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+</style>
+</head>
+<body>
+    <canvas id="interactiveBackground"></canvas>
+     <!-- Navigation Bar -->
+     <div class="navbar">
+        <h2>Authenticator</h2>
+        <button id="addAccountNavBtn">+</button>
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchBtn">&#128269;</button>
+        </div>
+        <button id="settingsBtn">Settings</button>
+    </div>
+    
+    <div class="container">
+        <button id="addAccountBtn" style="display: none;">Add New Account</button>
+        <div id="accountForm" style="display: none;">
+            <input type="code" id="codeInput" placeholder="Enter the 8 Digit Code"><br>
+	        <input type="button" id="VerifyBtn" value="Verify and Register">
+        </div>
+        <div id="accountsContainer">
+            <h2>Accounts</h2>
+
+    </div>
+    <!-- Sidebar for Settings -->
+    <div id="settingsSidebar" class="settings-sidebar">
+        <button id="rearrangeAccountsBtn">Rearrange Accounts</button>
+        <button id="doneRearrangingBtn" style="display:none;">Done</button>
+        <button onclick="window.location.href='/logout'">Log out</button>
+    </div>
+
+    <!-- Chatbot-->
+    <button id="chatbotMinimizedBtn" style="display:block;">Chat</button> <!-- Minimized chatbot button -->
+
+<div class="chatbot-container" style="display: none;">
+    <button id="closeChatbot">Close</button>
+    <div class="chatbot-header" style="margin-bottom: 10px;">AuthFlow AI!</div>
+    <button id="recoverAccountBtn">Deleted account mistakenly</button>
+    <button id="RegisterBtn">How to Register an Account</button>
+    <button id="AuthFlowBtn">Why Authflow?</button>
+    <div style="margin-top: 10px;">Chat with me:</div>
+    <div id="chatbotHistory" style="height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 5px; margin-bottom: 10px;"></div>
+    <input type="text" id="chatbotInput" style="width: calc(100% - 60px); margin-right: 10px;">
+    <button id="chatbotSend">Send</button>
+</div>
+
+</body>
+
+
+    <script>
+
+
+
+document.getElementById('RegisterBtn').addEventListener('click', () => {
+    window.location.href = 'registration_page.html';
+});
+
+document.getElementById('recoverAccountBtn').addEventListener('click', () => {
+    const userEmail = prompt("Please enter your email:");
+    if (userEmail) {
+        // Send the email to the server to start the recovery process
+        recoverAccount(userEmail);
+    }
+});
+
+document.getElementById('AuthFlowBtn').addEventListener('click', () => {
+    window.location.href = 'why_Authflow.html';
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const canvas = document.getElementById('interactiveBackground');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let particlesArray = [];
+    const numberOfParticles = 100;
+
+    window.addEventListener('resize', function() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    });
+
+    // Create a class for particles
+    class Particle {
+        constructor() {
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height;
+            this.size = Math.random() * 5 + 1;
+            this.speedX = Math.random() * 1 - 0.5;
+            this.speedY = Math.random() * 1 - 0.5;
+        }
+        update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
+        }
+        draw() {
+            ctx.fillStyle = '#4b007d';
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fill();
+        }
+    }
+
+    // Initialize particles
+    function init() {
+        for (let i = 0; i < numberOfParticles; i++) {
+            particlesArray.push(new Particle());
+        }
+    }
+
+    // Animate particles
+    function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < particlesArray.length; i++) {
+            particlesArray[i].update();
+            particlesArray[i].draw();
+
+            // Reinitialize particle when it moves out of view
+            if (particlesArray[i].x < 0 || particlesArray[i].x > canvas.width || particlesArray[i].y < 0 || particlesArray[i].y > canvas.height) {
+                particlesArray[i] = new Particle();
+            }
+        }
+        requestAnimationFrame(animate);
+    }
+
+    init();
+    animate();
+});
+
+document.addEventListener('mousemove', (e) => {
+    const shapes = document.querySelectorAll('.dynamic-shape');
+    const mouseX = e.clientX;
+    const mouseY = e.clientY;
+
+    shapes.forEach(shape => {
+        const shapeSpeed = shape.getAttribute('data-speed');
+        const xDistance = (window.innerWidth / 2 - mouseX) * shapeSpeed;
+        const yDistance = (window.innerHeight / 2 - mouseY) * shapeSpeed;
+
+        shape.style.transform = `translate(${xDistance}px, ${yDistance}px)`;
+    });
+});
+
+
+
+document.getElementById('chatbotSend').addEventListener('click', () => {
+    const inputField = document.getElementById('chatbotInput');
+    const chatHistory = document.getElementById('chatbotHistory');
+    const userMessage = inputField.value.trim();
+
+    if (userMessage) {
+        const userMsgElement = document.createElement('div');
+        userMsgElement.className = 'chatbot-message user';
+        userMsgElement.textContent = `You: ${userMessage}`;
+        chatHistory.appendChild(userMsgElement);
+
+        inputField.value = ''; // Clear input field
+
+        // Example placeholder for sending message to server and receiving response
+        fetch('/chatbot', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: userMessage }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            const botMsgElement = document.createElement('div');
+            botMsgElement.className = 'chatbot-message bot';
+            botMsgElement.textContent = `Bot: ${data.reply}`;
+            chatHistory.appendChild(botMsgElement);
+            chatHistory.scrollTop = chatHistory.scrollHeight; // Scroll to the bottom
+        })
+        .catch(error => console.error('Error:', error));
+    }
+});
+
+document.getElementById('chatbotMinimizedBtn').addEventListener('click', () => {
+    document.querySelector('.chatbot-container').style.display = 'block'; // Show the chatbot container
+    document.getElementById('chatbotMinimizedBtn').style.display = 'none'; // Hide the minimized button
+});
+
+document.getElementById('closeChatbot').addEventListener('click', () => {
+    document.querySelector('.chatbot-container').style.display = 'none'; // Hide the chatbot container
+    document.getElementById('chatbotMinimizedBtn').style.display = 'block'; // Show the minimized button again
+});
+
+
+
+// Example functionality for the add account button
+document.getElementById('addAccountNavBtn').addEventListener('click', () => {
+    const accountForm = document.getElementById('accountForm');
+    accountForm.style.display = accountForm.style.display === 'block' ? 'none' : 'block'; // Toggle the account form visibility
+});
+
+// Example functionality for the settings button - Placeholder for future implementation
+document.getElementById('settingsBtn').addEventListener('click', function() {
+    document.getElementById('settingsSidebar').style.display = 'block'; // Show the sidebar
+});
+
+document.getElementById('searchBtn').addEventListener('click', function() {
+    const searchValue = document.getElementById('searchInput').value.toLowerCase();
+    const accounts = document.querySelectorAll('#accountsContainer > div');
+
+    accounts.forEach(account => {
+        const email = account.querySelector('p:first-child').textContent.toLowerCase();
+        const passkey = account.querySelector('p:nth-child(2)').textContent.toLowerCase();
+
+        // Check if email or passkey contains the search value
+        if (email.includes(searchValue) || passkey.includes(searchValue)) {
+            account.style.display = 'block'; // Show the account if it matches the search
+        } else {
+            account.style.display = 'none'; // Hide the account if it does not match the search
+        }
+    });
+});
+
+document.getElementById('rearrangeAccountsBtn').addEventListener('click', function() {
+    enableDraggableAccounts();
+    document.getElementById('doneRearrangingBtn').style.display = 'inline'; // Show the done button
+});
+
+document.getElementById('doneRearrangingBtn').addEventListener('click', function() {
+    disableDraggableAccounts();
+    document.getElementById('settingsSidebar').style.display = 'none'; // Hide the sidebar
+    document.getElementById('doneRearrangingBtn').style.display = 'none'; // Hide the done button
+});
+
+
+function recoverAccount(email) {
+    fetch('/recoverAccount', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.questions) {
+            // If there are questions, prompt the user for answers
+            let answersMatch = true;
+            data.questions.forEach((question, index) => {
+                const answer = prompt(question);
+                if (answer !== data.answers[index]) {
+                    answersMatch = false;
+                }
+            });
+            if (answersMatch) {
+                alert('Your account is being recovered. Please wait.');
+                // Further steps to generate and send passkey to the user
+                generatePasskey(email);
+            } else {
+                alert('Answers do not match. Cannot recover the account.');
+            }
+        } else {
+            alert(data.message);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+function generatePasskey(email) {
+  // Check if user is in the 'users' table
+  const userCheckQuery = 'SELECT * FROM users WHERE email = ?';
+  connection.query(userCheckQuery, [email], (err, results) => {
+      if (err) {
+          console.error(`Error checking users table: ${err}`);
+          return;
+      }
+
+      const secret = speakeasy.generateSecret({length: 20}).base32;
+      const token = speakeasy.totp({
+          secret: secret,
+          encoding: 'base32'
+      });
+
+      if (results.length > 0) {
+          // User exists, update their secret
+          const updateQuery = 'UPDATE users SET secret = ? WHERE email = ?';
+          connection.query(updateQuery, [secret, email], (updateErr) => {
+              if (updateErr) {
+                  console.error(`Error updating user's secret: ${updateErr}`);
+                  return;
+              }
+              console.log(`User's secret updated. Passkey generated for ${email}`);
+              // Send passkey to user via preferred method (e.g., email)
+          });
+      } else {
+          // User does not exist, insert new record
+          const insertQuery = 'INSERT INTO users (email, secret) VALUES (?, ?)';
+          connection.query(insertQuery, [email, secret], (insertErr) => {
+              if (insertErr) {
+                  console.error(`Error inserting new user: ${insertErr}`);
+                  return;
+              }
+              console.log(`New user added and passkey generated for ${email}`);
+          });
+      }
+      console.log(`Passkey for ${email}: ${token}`);
+  });
+}
+
+
+function enableDraggableAccounts() {
+    const accounts = document.querySelectorAll('#accountsContainer > div');
+    accounts.forEach(acc => {
+        acc.setAttribute('draggable', true);
+        acc.classList.add('draggable');
+    });
+
+    const container = document.getElementById('accountsContainer');
+    let draggedItem = null;
+
+    container.addEventListener('dragstart', (e) => {
+        draggedItem = e.target;
+        setTimeout(() => (e.target.style.opacity = '0.5'), 0);
+    });
+
+    container.addEventListener('dragend', (e) => {
+        setTimeout(() => (e.target.style.opacity = ''), 0);
+        draggedItem = null;
+    });
+
+    container.addEventListener('dragover', (e) => {
+        e.preventDefault();
+    });
+
+    container.addEventListener('drop', (e) => {
+        e.preventDefault();
+        if (e.target.className === 'draggable') {
+            container.insertBefore(draggedItem, e.target.nextSibling);
+        }
+    });
+}
+
+function disableDraggableAccounts() {
+    const accounts = document.querySelectorAll('#accountsContainer > div');
+    accounts.forEach(acc => {
+        acc.removeAttribute('draggable');
+        acc.classList.remove('draggable');
+    });
+
+    // leave the draggable attribute disabled
+
+    const container = document.getElementById('accountsContainer');
+    container.removeEventListener('dragstart', (e) => {
+        draggedItem = e.target;
+        setTimeout(() => (e.target.style.opacity = '0.5'), 0);
+    });
+
+    container.removeEventListener('dragend', (e) => {
+        setTimeout(() => (e.target.style.opacity = ''), 0);
+        draggedItem = null;
+    });
+
+    container.removeEventListener('dragover', (e) => {
+        e.preventDefault();
+    });
+
+    container.removeEventListener('drop', (e) => {
+        e.preventDefault();
+        if (e.target.className === 'draggable') {
+            container.insertBefore(draggedItem, e.target.nextSibling);
+        }
+    });
+
+}
+
+// Example functionality for the add account form
+function addAccount(email, password) {
+    fetch('/verifyandRegister', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data.message);
+        document.getElementById('accountForm').style.display = 'none'; 
+        fetchEmails();
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+
+
+// Example functionality for the verify button
+document.getElementById('VerifyBtn').addEventListener('click', function() {
+    const code = document.getElementById('codeInput').value;
+
+    if (code) {
+        fetch('/verifyAndRegister', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({code}),
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert(data.message); // Display success or error message
+            fetchEmails(); // Refresh the list of emails and passkeys
+        })
+        .catch(error => console.error('Error:', error));
+    }
+});
+
+// Example functionality for the Progess Bar and Timer
+function startTimerAndProgressBar(timerElement, progressBarElement, duration) {
+    let timeLeft = duration;
+    progressBarElement.style.width = '100%';
+    progressBarElement.style.backgroundColor = '#6200ea';
+    const interval = setInterval(() => {
+        timeLeft--;
+        timerElement.textContent = timeLeft.toString();
+        progressBarElement.style.width = `${(timeLeft / duration) * 100}%`;
+        if (timeLeft <= 0) {
+            clearInterval(interval);
+        }
+    }, 1000);
+}
+
+// functionality for fetching emails and passkeys
+function fetchEmails() {
+    fetch('/getAccounts')
+        .then(response => response.json())
+        .then(accounts => {
+            accounts.forEach(account => {
+                // Check if the account element already exists
+                let accountElement = document.getElementById(`account-${account.email}`);
+                let suspensionMessage = account.isSuspended ? '<p class="suspended-msg">Account suspended for 1 minute</p>' : '';
+
+                // If the account element does not exist, create it
+                if (!accountElement) {
+                    accountElement = document.createElement('div');
+                    accountElement.id = `account-${account.email}`;
+                    document.getElementById('accountsContainer').appendChild(accountElement);
+                }
+
+                // Update the innerHTML assignment within fetchEmails function
+                accountElement.innerHTML = `
+                    <p>${account.idp} - Client Side</p>
+                    <p>${account.email}</p>
+                    <p class="passkey">${account.passkey} <button class="copy-btn" data-tooltip="Copy to clipboard" data-email="${account.email}" data-passkey="${account.passkey}" onclick="copyToClipboard('${account.email}')">&#x2398;</button></p>
+                    ${suspensionMessage}
+                    <button onclick="deleteAccount('${account.email}')" class="cancel-btn">Cancel</button>
+                    <div class="timer" id="timer-${account.email}"></div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="progress-${account.email}"></div>
+                </div>
+                `;
+
+
+                // Start or restart the timer and progress bar if not suspended
+                if (!account.isSuspended) {
+                    const timerElement = document.getElementById(`timer-${account.email}`);
+                    const progressBarElement = document.getElementById(`progress-${account.email}`);
+                    startTimerAndProgressBar(timerElement, progressBarElement, 30);
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching emails:', error));
+}
+
+function copyToClipboard(email) {
+    const button = document.querySelector(`button[data-email='${email}']`); // Modify selector to use data-email attribute for targeting the correct button
+    const originalTooltip = 'Copy to clipboard';
+    const copiedTooltip = 'Copied!';
+    
+    button.setAttribute('data-tooltip', copiedTooltip); // Change tooltip to show "Copied!"
+    
+    const passkey = button.getAttribute('data-passkey'); // Use a data attribute on the button to store the passkey
+
+    navigator.clipboard.writeText(passkey).then(function() {
+        console.log(`Passkey ${passkey} copied to clipboard`);
+        setTimeout(() => {
+            button.setAttribute('data-tooltip', originalTooltip); // Revert tooltip after 2 seconds
+        }, 2000);
+    }, function(err) {
+        console.error('Error in copying text: ', err);
+        button.setAttribute('data-tooltip', originalTooltip); // Ensure tooltip is correct even after an error
+    });
+}
+
+
+
+// Example functionality for the delete button
+function deleteAccount(email) {
+    if (!confirm(`Are you sure you want to delete the account for ${email}?`)) return;
+    
+    fetch('/deleteAccount', {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data.message);
+        fetchEmails();
+    })
+    .catch(error => console.error('Error deleting account:', error));
+}
+
+
+
+
+// Initially fetch and display emails
+fetchEmails();
+// Refresh the emails and passkeys every 30 seconds
+setInterval(fetchEmails, 30000);
+
+    </script>
+</body>
+</html>

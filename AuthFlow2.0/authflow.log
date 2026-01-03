@@ -1,0 +1,6 @@
+{"level":"info","message":"Entering /getAccounts endpoint","service":"user-service","timestamp":"2024-04-04T07:52:53.536Z"}
+{"level":"info","message":"Successfully fetched accounts. Number of accounts fetched: 3","service":"user-service","timestamp":"2024-04-04T07:52:53.542Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T07:53:09.986Z"}
+{"level":"info","message":"Passkeys refreshed","service":"user-service","timestamp":"2024-04-04T07:53:09.988Z"}
+{"level":"info","message":"Passkeys refreshed","service":"user-service","timestamp":"2024-04-04T07:53:09.989Z"}
+{"level":"info","message":"Passkeys refreshed","service":"user-service","timestamp":"2024-04-04T07:53:09.990Z"}

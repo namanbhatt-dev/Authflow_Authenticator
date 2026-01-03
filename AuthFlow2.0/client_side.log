@@ -1,0 +1,737 @@
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-21T19:16:30.200Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-21T19:16:30.210Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-21T19:16:30.210Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T19:16:36.007Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T19:16:45.208Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T19:16:54.148Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: authflowauthenticator@gmail.com","service":"user-service","timestamp":"2024-03-21T19:17:20.312Z"}
+{"level":"info","message":"Initializing attempt tracking for authflowauthenticator@gmail.com","service":"user-service","timestamp":"2024-03-21T19:17:20.313Z"}
+{"level":"info","message":"Secret fetched for authflowauthenticator@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-21T19:17:20.315Z"}
+{"level":"info","message":"Passkey verified successfully for authflowauthenticator@gmail.com","service":"user-service","timestamp":"2024-03-21T19:17:20.318Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-21T19:17:21.480Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T19:17:25.287Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-21T20:57:05.457Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-21T20:57:05.474Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-21T20:57:05.475Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T20:58:14.029Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T21:06:53.888Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T21:07:25.764Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: nmb5908@psu.edu","service":"user-service","timestamp":"2024-03-21T21:07:34.035Z"}
+{"level":"info","message":"Initializing attempt tracking for nmb5908@psu.edu","service":"user-service","timestamp":"2024-03-21T21:07:34.036Z"}
+{"level":"info","message":"Secret fetched for nmb5908@psu.edu, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-21T21:07:34.038Z"}
+{"level":"warn","message":"Invalid passkey attempt for nmb5908@psu.edu. Attempts: 1","service":"user-service","timestamp":"2024-03-21T21:07:34.039Z"}
+{"level":"info","message":"No user found with email nmb5908@psu.edu or user is not enrolled.","service":"user-service","timestamp":"2024-03-21T21:07:34.040Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: nmb5908@psu.edu","service":"user-service","timestamp":"2024-03-21T21:07:46.277Z"}
+{"level":"info","message":"Secret fetched for nmb5908@psu.edu, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-21T21:07:46.279Z"}
+{"level":"info","message":"Passkey verified successfully for nmb5908@psu.edu","service":"user-service","timestamp":"2024-03-21T21:07:46.282Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-21T21:07:47.877Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-21T21:10:40.974Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-22T02:50:22.480Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-22T02:50:22.495Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-22T02:50:22.496Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:50:47.352Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:51:00.352Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:51:08.218Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-22T02:52:17.269Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-22T02:52:17.282Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-22T02:52:17.282Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:52:22.717Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:52:30.754Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-22T02:55:03.363Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-22T02:55:03.376Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-22T02:55:03.376Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:55:06.043Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-22T02:55:46.740Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-22T02:55:46.751Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-22T02:55:46.752Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:55:50.656Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:56:48.269Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-22T02:59:32.539Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-22T02:59:32.551Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-22T02:59:32.551Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T02:59:38.691Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T03:00:40.303Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-22T03:00:45.616Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T18:05:54.192Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T18:05:54.204Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T18:05:54.205Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:06:18.695Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:06:28.613Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:06:35.932Z"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","message":"Error enrolling user in AuthFlow Authenticator: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1","service":"user-service","sql":"INSERT INTO AuthFlowUsers (email, password_hash, pin, is_enrolled, idp) VALUES ('donec.moriatur@gmail.com', '7d1896578c1a1cf2221dc88d1b72229ba0c04b98c05c0bb057e749ae1d689fcc', '75098496', 1, ?)","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1","sqlState":"42000","stack":"Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1\n    at Sequence._packetToError (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:518:28)\n    at Socket.emit (node:domain:488:12)\n    --------------------\n    at Protocol._enqueue (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n    at Connection.query (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:198:25)\n    at Query.<anonymous> (D:\\ClientSide2.0\\server.js:223:20)\n    at Query.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)","timestamp":"2024-03-24T18:06:38.620Z"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","message":"Error enrolling user in AuthFlow Authenticator: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1","service":"user-service","sql":"INSERT INTO AuthFlowUsers (email, password_hash, pin, is_enrolled, idp) VALUES ('donec.moriatur@gmail.com', '368fe4a62da9726a2adec2e0887dd78d8c237b2f4736d154cad40d2d2ef45814', '21247888', 1, ?)","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1","sqlState":"42000","stack":"Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1\n    at Sequence._packetToError (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:518:28)\n    at Socket.emit (node:domain:488:12)\n    --------------------\n    at Protocol._enqueue (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n    at Connection.query (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:198:25)\n    at Query.<anonymous> (D:\\ClientSide2.0\\server.js:223:20)\n    at Query.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)","timestamp":"2024-03-24T18:06:57.221Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:07:08.165Z"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","message":"Error enrolling user in AuthFlow Authenticator: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1","service":"user-service","sql":"INSERT INTO AuthFlowUsers (email, password_hash, pin, is_enrolled, idp) VALUES ('donec.moriatur@gmail.com', 'bdd6138ef5f744d0a7f3eafd054da8c3142f0d669560008180ca1254b81b7178', '74704388', 1, ?)","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1","sqlState":"42000","stack":"Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?)' at line 1\n    at Sequence._packetToError (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:47:14)\n    at Query.ErrorPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:79:18)\n    at Protocol._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)\n    at Parser.write (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:43:10)\n    at Protocol.write (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:38:16)\n    at Socket.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:88:28)\n    at Socket.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Socket.emit (node:events:518:28)\n    at Socket.emit (node:domain:488:12)\n    --------------------\n    at Protocol._enqueue (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:144:48)\n    at Connection.query (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:198:25)\n    at Query.<anonymous> (D:\\ClientSide2.0\\server.js:223:20)\n    at Query.<anonymous> (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:526:10)\n    at Query._callback (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\Connection.js:488:16)\n    at Sequence.end (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Sequence.js:83:24)\n    at Query._handleFinalResultPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:149:8)\n    at Query.EofPacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\sequences\\Query.js:133:8)\n    at Protocol._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Protocol.js:291:23)\n    at Parser._parsePacket (D:\\ClientSide2.0\\node_modules\\mysql\\lib\\protocol\\Parser.js:433:10)","timestamp":"2024-03-24T18:07:10.198Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T18:13:48.537Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T18:13:48.547Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T18:13:48.548Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:13:52.044Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T18:14:46.492Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T18:14:46.502Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T18:14:46.503Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:14:48.210Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T18:17:29.098Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T18:17:29.109Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T18:17:29.110Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T18:17:30.917Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T19:36:08.362Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T19:36:08.389Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T19:36:08.391Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T19:36:15.003Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T19:36:22.622Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T19:36:33.011Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T19:55:38.196Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T19:55:38.212Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T19:55:38.213Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T19:55:47.815Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T19:55:57.118Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:00:30.561Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:00:34.235Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:00:43.608Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T20:06:13.079Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T20:06:13.108Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T20:06:13.109Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:06:28.839Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:06:32.547Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:08:51.709Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T20:10:38.587Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T20:10:38.605Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T20:10:38.606Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:10:52.735Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:15:20.448Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T20:15:42.841Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T20:15:42.859Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T20:15:42.860Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-24T20:17:50.813Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-24T20:17:50.835Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-24T20:17:50.837Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-24T20:17:57.415Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:35:36.302Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:35:36.347Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:35:36.348Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:35:40.641Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:35:51.904Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:36:30.917Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:36:30.929Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:36:30.930Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:36:32.647Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:38:04.094Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:38:04.111Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:38:04.112Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:38:15.001Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:39:53.380Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:43:42.979Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:43:42.995Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:43:42.996Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:43:49.911Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:44:02.558Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:51:38.398Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:51:38.409Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:51:38.410Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:51:45.109Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:51:56.069Z"}
+{"level":"info","message":"Updated user's provider to google-oauth2 for email: authflowauthenticator@gmail.com","service":"user-service","timestamp":"2024-03-26T18:51:56.309Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:51:57.871Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:03.657Z"}
+{"level":"info","message":"Updated user's provider to google-oauth2 for email: nmb5908@psu.edu","service":"user-service","timestamp":"2024-03-26T18:52:03.896Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:07.577Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:10.208Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:10.681Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:10.863Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:52:32.657Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:52:32.667Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:52:32.668Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T18:52:40.858Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T18:52:40.869Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T18:52:40.870Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:48.554Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T18:52:58.204Z"}
+{"level":"info","message":"Updated user's provider to google-oauth2 for email: nmb5908@psu.edu","service":"user-service","timestamp":"2024-03-26T18:52:58.430Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T19:23:34.367Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T19:23:34.382Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T19:23:34.382Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T19:24:41.526Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T19:24:41.544Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T19:24:41.545Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T19:24:51.272Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T19:24:54.060Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T19:25:17.848Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T19:28:05.612Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T19:28:05.622Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T19:28:05.623Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T19:28:17.452Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T19:30:46.852Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T19:30:46.863Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T19:30:46.864Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T19:30:54.326Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T19:32:44.690Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T19:32:44.705Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T19:32:44.706Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T19:32:46.476Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T21:46:49.299Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T21:46:49.317Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T21:46:49.319Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T21:46:58.286Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T21:48:33.039Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:06:13.098Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:06:13.173Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:06:13.174Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:06:43.536Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:06:43.594Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:06:43.595Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T22:06:46.349Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:06:59.772Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:06:59.833Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:06:59.834Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:40:22.618Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:40:22.635Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:40:22.636Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T22:40:42.351Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:42:36.069Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:42:36.100Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:42:36.102Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T22:42:37.711Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T22:42:46.713Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:43:36.746Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:43:36.761Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:43:36.762Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T22:43:56.395Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-26T22:47:55.233Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-26T22:47:55.250Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-26T22:47:55.251Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-26T22:47:59.406Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T03:38:36.306Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T03:38:36.324Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T03:38:36.325Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:38:50.193Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:39:49.271Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:50:20.100Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:54:00.610Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:54:08.602Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:54:19.779Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:54:31.047Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T03:57:52.651Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T03:59:42.668Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T03:59:42.669Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T03:59:44.948Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T03:59:46.170Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T03:59:49.133Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T03:59:49.328Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T03:59:49.552Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:00:42.440Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:00:49.735Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:00:51.939Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:00:52.150Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:00:52.780Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:00:52.983Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:01:02.745Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:01:02.761Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:01:02.762Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:01:08.303Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:24.691Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:01:24.691Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:25.376Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:25.565Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:25.767Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:26.074Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:26.277Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:01:52.257Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:55.925Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:58.272Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:59.292Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:59.504Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:59.683Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:01:59.892Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:03:07.654Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:03:07.665Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:03:07.666Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.853Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.854Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.856Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.858Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.859Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.861Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:07.862Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:03:34.584Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:03:41.450Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:45.722Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:47.223Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:47.437Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:47.641Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:53.034Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:03:54.864Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:05:12.081Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:14.945Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:15.483Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:15.686Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:15.860Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:16.055Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:17.418Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:05:35.178Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:38.375Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:38.854Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:39.066Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:05:40.159Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:05:41.074Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:43.258Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:05:44.856Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:05:51.171Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:08:04.218Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:08:04.231Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:08:04.232Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:08:07.461Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:08:10.333Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:08:10.335Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:08:10.751Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:08:10.930Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:08:31.242Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:08:33.313Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:08:37.458Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:14:20.155Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:14:20.166Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:14:20.167Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:14:22.410Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:14:26.196Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:14:28.947Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T04:14:28.947Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:14:29.777Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:14:29.988Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:14:30.565Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:14:30.865Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:14:31.075Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:18:40.567Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:18:40.578Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:18:40.579Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:18:40.706Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T04:18:40.707Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:18:40.710Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:18:40.712Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:18:40.715Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:18:45.158Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:18:45.170Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:18:45.171Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:18:48.495Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:18:50.389Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:18:50.390Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:18:50.837Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:18:51.257Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:18:51.490Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:18:51.691Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:18:51.903Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:23:45.711Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:23:45.722Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:23:45.723Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:23:51.966Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:23:54.341Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:23:54.342Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:23:54.853Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:23:55.055Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:23:55.654Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:23:55.894Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:23:58.039Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:24:30.160Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:24:30.171Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:24:30.172Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.255Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.255Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.262Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.263Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.268Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.270Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:30.272Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:40.895Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:24:40.897Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:25:33.199Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:25:33.209Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:25:33.210Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:25:35.446Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:25:38.290Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:25:38.290Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:25:38.708Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:25:38.933Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:25:39.150Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:27:00.581Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:27:00.591Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:27:00.592Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:27:00.649Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:27:00.649Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:27:00.652Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:27:00.654Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:27:00.656Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:27:03.160Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:05.592Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T04:27:05.593Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:05.877Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:06.086Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:06.288Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:06.866Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:07.721Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:27:56.389Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:27:56.400Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:27:56.401Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:56.483Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T04:27:56.484Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:56.487Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:56.491Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:56.494Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:56.495Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:27:56.498Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:28:10.000Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:28:10.013Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:28:10.014Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.047Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T04:28:10.047Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.051Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:28:10.053Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.059Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.061Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.063Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.084Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:28:10.098Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:28:11.500Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:28:12.957Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T04:28:12.958Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:28:15.650Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:28:15.867Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:28:17.510Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T04:28:18.147Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:30:30.103Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:30:30.113Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:30:30.114Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:30:39.477Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:30:50.225Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:30:50.235Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:30:50.236Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T04:32:28.038Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T04:32:28.048Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T04:32:28.049Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T04:32:29.882Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:32:31.998Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T04:32:31.999Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:32:32.236Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:32:32.468Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:32:32.655Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:32:32.896Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T04:32:33.084Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T05:08:10.280Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T05:08:10.311Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T05:08:10.313Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:08:14.979Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:16.578Z"}
+{"level":"info","message":"Initializing attempt tracking for undefined","service":"user-service","timestamp":"2024-03-27T05:08:16.578Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:17.113Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:17.308Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:18.937Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:19.190Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:19.408Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:08:54.793Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:08:55.707Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:58.103Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:58.409Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:58.626Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:58.813Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: undefined","service":"user-service","timestamp":"2024-03-27T05:08:59.016Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:08:59.959Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:09:00.570Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T05:11:44.495Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T05:11:44.506Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T05:11:44.506Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:11:47.564Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:11:52.858Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:12:02.177Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T05:16:48.912Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T05:16:48.923Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T05:16:48.924Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:16:54.168Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:00.109Z"}
+{"level":"info","message":"Initializing attempt tracking for bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:00.109Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:00.541Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:00.729Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:00.938Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:01.133Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman141@gmail.com","service":"user-service","timestamp":"2024-03-27T05:17:01.321Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T05:17:40.833Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T05:17:40.844Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T05:17:40.845Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T05:17:44.799Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T05:17:46.339Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T05:17:46.340Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T05:17:46.605Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T05:17:46.796Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T05:17:48.626Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T05:17:48.843Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T05:17:49.023Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T05:17:54.055Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T05:17:54.066Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T05:17:54.067Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T14:45:54.275Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T14:45:54.294Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T14:45:54.294Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:45:59.207Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: null","service":"user-service","timestamp":"2024-03-27T14:46:06.972Z"}
+{"level":"info","message":"Initializing attempt tracking for null","service":"user-service","timestamp":"2024-03-27T14:46:06.973Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:46:09.375Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T14:46:47.039Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T14:46:47.050Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T14:46:47.051Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:46:48.394Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:46:57.720Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:47:01.718Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:47:01.718Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:47:01.720Z"}
+{"level":"warn","message":"Invalid passkey attempt for donec.moriatur@gmail.com. Attempts: 1","service":"user-service","timestamp":"2024-03-27T14:47:01.720Z"}
+{"level":"info","message":"No user found with email donec.moriatur@gmail.com or user is not enrolled.","service":"user-service","timestamp":"2024-03-27T14:47:01.721Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T14:47:54.678Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T14:47:54.690Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T14:47:54.690Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:48:24.484Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:48:24.484Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:48:24.486Z"}
+{"level":"warn","message":"Invalid passkey attempt for donec.moriatur@gmail.com. Attempts: 1","service":"user-service","timestamp":"2024-03-27T14:48:24.487Z"}
+{"level":"info","message":"No user found with email donec.moriatur@gmail.com or user is not enrolled.","service":"user-service","timestamp":"2024-03-27T14:48:24.487Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:49:18.580Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:49:18.582Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:49:18.585Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:50:38.887Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:50:38.889Z"}
+{"level":"warn","message":"Invalid passkey attempt for donec.moriatur@gmail.com. Attempts: 1","service":"user-service","timestamp":"2024-03-27T14:50:38.890Z"}
+{"level":"info","message":"No user found with email donec.moriatur@gmail.com or user is not enrolled.","service":"user-service","timestamp":"2024-03-27T14:50:38.890Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:50:42.044Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:50:42.046Z"}
+{"level":"warn","message":"Invalid passkey attempt for donec.moriatur@gmail.com. Attempts: 2","service":"user-service","timestamp":"2024-03-27T14:50:42.047Z"}
+{"level":"warn","message":"Invalid passkey for donec.moriatur@gmail.com. Last attempt before suspension.","service":"user-service","timestamp":"2024-03-27T14:50:42.047Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:51:23.607Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:51:23.608Z"}
+{"level":"warn","message":"Invalid passkey attempt for donec.moriatur@gmail.com. Attempts: 3","service":"user-service","timestamp":"2024-03-27T14:51:23.609Z"}
+{"level":"warn","message":"Account for donec.moriatur@gmail.com is suspended for 1 minute after 3 failed attempts.","service":"user-service","timestamp":"2024-03-27T14:51:23.610Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:52:14.221Z"}
+{"level":"warn","message":"Account for donec.moriatur@gmail.com is suspended. Denying access.","service":"user-service","timestamp":"2024-03-27T14:52:14.222Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:52:17.808Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T14:53:03.482Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T14:53:03.492Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T14:53:03.493Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:53:10.024Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:53:12.358Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:53:12.359Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:53:12.360Z"}
+{"level":"warn","message":"Invalid passkey attempt for donec.moriatur@gmail.com. Attempts: 1","service":"user-service","timestamp":"2024-03-27T14:53:12.361Z"}
+{"level":"info","message":"No user found with email donec.moriatur@gmail.com or user is not enrolled.","service":"user-service","timestamp":"2024-03-27T14:53:12.361Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:53:26.453Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:53:26.454Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:53:26.457Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T14:58:46.826Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T14:58:46.836Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T14:58:46.837Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T14:58:57.657Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:59:30.103Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:59:30.103Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T14:59:30.105Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T14:59:30.107Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T15:06:37.221Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T15:06:37.235Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T15:06:37.235Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T15:06:43.693Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T15:07:07.675Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T15:07:07.676Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T15:07:07.677Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T15:07:07.680Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T15:07:14.385Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T15:07:14.386Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T15:07:14.387Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T21:03:52.957Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T21:03:52.994Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T21:03:52.995Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:03:58.443Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:04:17.465Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:04:17.466Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:04:17.472Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:04:17.476Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-27T21:04:17.510Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:04:22.068Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-27T21:05:34.377Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-27T21:05:34.395Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-27T21:05:34.396Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:05:45.138Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:06:27.513Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:06:47.582Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:06:47.583Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:06:47.585Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:06:47.589Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-27T21:06:47.623Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:06:52.906Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:07:59.991Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:08:36.975Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:08:50.077Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:08:50.079Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:08:50.080Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-27T21:08:50.109Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:09:02.140Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:10:13.692Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:10:19.453Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:10:34.431Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:43.688Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:43.690Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:43.691Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:45.630Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:45.632Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:45.633Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:46.350Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:46.352Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:46.353Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:47.717Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:47.719Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:47.720Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:48.287Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:48.289Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:48.291Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-27T21:10:50.162Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:59.132Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:59.134Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:59.135Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:59.769Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:10:59.771Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:10:59.772Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.208Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:11:00.210Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.212Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.346Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:11:00.348Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.349Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.482Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:11:00.484Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.485Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.899Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:11:00.901Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:00.902Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:01.185Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-27T21:11:01.187Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-03-27T21:11:01.188Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-28T19:52:39.029Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-28T19:52:39.060Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-28T19:52:39.061Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T19:52:47.037Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T19:53:45.137Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T19:54:32.544Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:42.702Z"}
+{"level":"info","message":"Initializing attempt tracking for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:42.703Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T19:54:42.705Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:42.709Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:44.380Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T19:54:44.382Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:44.383Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:44.812Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T19:54:44.814Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:44.815Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:45.036Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T19:54:45.038Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:54:45.040Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T19:55:55.132Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:56:02.666Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T19:56:02.668Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:56:02.669Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-28T19:56:49.334Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-28T19:56:49.351Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-28T19:56:49.352Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T19:56:59.686Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:57:08.572Z"}
+{"level":"info","message":"Initializing attempt tracking for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:57:08.573Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T19:57:08.576Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T19:57:08.580Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-28T19:57:08.606Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T19:57:13.290Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-03-28T20:55:40.202Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-03-28T20:55:40.214Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-03-28T20:55:40.214Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T20:55:49.722Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T20:56:16.929Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T21:37:31.834Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T21:38:29.278Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T21:38:36.380Z"}
+{"level":"info","message":"Initializing attempt tracking for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T21:38:36.381Z"}
+{"level":"info","message":"Secret fetched for bhattnaman481@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-03-28T21:38:36.383Z"}
+{"level":"info","message":"Passkey verified successfully for bhattnaman481@gmail.com","service":"user-service","timestamp":"2024-03-28T21:38:36.387Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-03-28T21:38:36.421Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-03-28T21:39:06.210Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-01T22:45:14.660Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-01T22:45:14.679Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-01T22:45:14.680Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-01T22:45:21.307Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-04-01T22:45:34.785Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-01T23:22:26.045Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-01T23:22:26.066Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-01T23:22:26.067Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-01T23:22:34.372Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-01T23:22:38.284Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-01T23:23:42.186Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-01T23:24:13.252Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-03T19:08:10.290Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-03T19:08:10.311Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-03T19:08:10.313Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-03T19:08:17.331Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-03T19:10:04.430Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-03T19:11:00.494Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-03T19:14:17.040Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-03T19:14:17.051Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-03T19:14:17.052Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-03T19:14:26.604Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-03T19:14:30.222Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-03T19:15:17.422Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:31:42.075Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:31:42.089Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:31:42.090Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:31:47.619Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:32:09.519Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:33:51.065Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:35:09.406Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:35:09.419Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:35:09.420Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:36:07.331Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:36:07.342Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:36:07.342Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:36:11.056Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:36:12.977Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:36:13.368Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:36:14.781Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:36:22.701Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:36:45.318Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:36:45.339Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:36:45.340Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:36:47.445Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:37:00.731Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:37:27.033Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:37:27.043Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:37:27.044Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:37:45.809Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:37:45.820Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:37:45.821Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:37:50.014Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:38:01.522Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T02:43:03.884Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T02:43:03.894Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T02:43:03.895Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T02:43:06.763Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T04:14:19.949Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T04:14:19.967Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T04:14:19.968Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:14:23.193Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:15:02.838Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T04:20:40.422Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T04:20:40.444Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T04:20:40.445Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:20:47.862Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T04:23:19.485Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T04:23:19.501Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T04:23:19.502Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:23:21.828Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:24:58.900Z"}
+{"level":"info","message":"Server running at http://localhost:3001","service":"user-service","timestamp":"2024-04-04T04:47:06.422Z"}
+{"level":"error","message":null,"service":"user-service","timestamp":"2024-04-04T04:47:06.438Z"}
+{"level":"info","message":"Connected to MySQL Server!","service":"user-service","timestamp":"2024-04-04T04:47:06.439Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:47:17.959Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:47:28.466Z"}
+{"level":"info","message":"Serving index.html","service":"user-service","timestamp":"2024-04-04T04:48:53.751Z"}
+{"level":"info","message":"Request received at /verify-passkey for email: donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-04-04T04:49:04.268Z"}
+{"level":"info","message":"Initializing attempt tracking for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-04-04T04:49:04.269Z"}
+{"level":"info","message":"Secret fetched for donec.moriatur@gmail.com, proceeding to verify passkey.","service":"user-service","timestamp":"2024-04-04T04:49:04.271Z"}
+{"level":"info","message":"Passkey verified successfully for donec.moriatur@gmail.com","service":"user-service","timestamp":"2024-04-04T04:49:04.275Z"}
+{"level":"info","message":"Serving profile.html","service":"user-service","timestamp":"2024-04-04T04:49:04.309Z"}
