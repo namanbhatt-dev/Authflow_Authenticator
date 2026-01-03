@@ -1,14 +1,10 @@
 // Author: Naman Bhatt
-// Advisor: Dr. Bimal Ghimere
 // Version: 2.0
-// Project: CMPSC 488 Authflow Authenticator
 // server.js for Client Side
 // Date Created: 2/5/2024
 // Last Updated: 3/27/2024
 // Description: This is the server side code for the Authflow Authenticator application. It includes the routes for enrolling users, verifying passkeys, and fetching user accounts.
-// This code is part of the CMPSC 488 course project at Penn State University.
-// Total time was spent on this code: 18 hours 
-// Total line of code in this file: 452 lines
+
 
 const express = require('express');
 const mysql = require('mysql');
@@ -94,8 +90,8 @@ const AWS = require('aws-sdk');
 
 // Configure AWS with your access key and secret key
 AWS.config.update({
-  accessKeyId: 'AKIA6GBMGOWRSZ6MI7TB',
-  secretAccessKey: 'ZWwHCvEc4DM2BnXHRSbSX+DzxndQn227DCF2M5TH',
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   region:'us-east-1'
 });
 
